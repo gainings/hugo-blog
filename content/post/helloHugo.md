@@ -1,10 +1,8 @@
 ---
 title: "Restart"
 date: 2017-08-02T19:28:03+09:00
-draft: true
 comments: true
 ---
-aaa hogehoge 
 
 地元のでっかい花火大会の裏で一人悲しくプログラミングしてますどうもゲインです．
 来年こそは彼女と花火行きたいです．行きます．
