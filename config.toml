@@ -13,7 +13,7 @@ paginate = 10
 	title = "Gain Blog"
 	subtitle = ""
 	copyright = ""
-
+  useSummaryIfNoDescription = true
 	# You can choose between green, orange, red and blue.
 	themecolor = "green"
 
