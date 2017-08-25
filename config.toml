@@ -5,7 +5,7 @@ theme = "hugo-steam-theme"
 hasCJKLanguage = true 
 disqusShortname = "gainings"
 # Enable Google Analytics be inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-87988940-1"
 # Number of posts per page
 paginate = 10
 
