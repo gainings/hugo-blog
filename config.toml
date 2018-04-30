@@ -1,4 +1,4 @@
-baseurl = "https://gainings.github.io/hugo-blog"
+baseurl = "https://blog-gainings.firebaseapp.com"
 languageCode = "ja"
 title = "Gain blog"
 theme = "hugo-steam-theme"
