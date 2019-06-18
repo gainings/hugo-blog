@@ -22,7 +22,7 @@ comments: true
 
 pngを読み込むサンプルは以下になります．
 
-```
+```go
 package main
 
 import (

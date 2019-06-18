@@ -1,46 +1,58 @@
-baseurl = "https://blog-gainings.firebaseapp.com"
+baseurl = "https://blog-gainings.com/"
 languageCode = "ja"
 title = "Gain blog"
-theme = "hugo-steam-theme"
+theme = "hugo-theme-cactus-plus"
 hasCJKLanguage = true 
 disqusShortname = "gainings"
 # Enable Google Analytics be inserting your tracking code
-googleAnalytics = "UA-87988940-1"
 # Number of posts per page
-paginate = 10
+googleAnalytics = "UA-87988940-1"
+
 
 [params]
-	title = "Gain Blog"
-	subtitle = ""
-	copyright = ""
-  useSummaryIfNoDescription = true
-	# You can choose between green, orange, red and blue.
-	themecolor = "green"
+  paginate = 10
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  twitter = "gainings"
+  facebook = "Your Facebook u"
+  github = "gainings"
+  # Disqus shortname
+  disqus = "gainings"
+  # Google Analytics API key.
+	enableGoogleAnalytics = true
+  author = "Gainings"
+  authorwebsite = "example.com"
+  avatar = "/static/images/avatar.jpg"
+  contact = "gain.beats@gmail.com"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "Short subtitle"
+  # Logo image. This is displayed ogp image.
+  logo = "/path/to/logo"
+  favicon = "/path/to/favicon"
 
-	# Link custom assets relative to /static
-	favicon   = "favicon.ico"
-	customCSS = []
-	customJS  = []
+	enableSummary = true
 
-	# To provide some metadata for search engines and the about section in the footer
-	# feel free to add a few information about you and your website.
-	name = "Gainings"
-	bio = "お米の国の大学院生"
-	description = "好きなこと書く"
-	
-	# Link your social networks (optional)
-	location = ""
-	twitter = "gainings"
-	linkedin = ""
-	googleplus = ""
-	facebook = ""
-	instagram = ""
-	github = "gainings"
-	gitlab = ""
-	bitbucket = ""
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 80
 
-	# Customize or translate the strings
-	keepReadingStr = "Read more"
-	backtotopStr = "Back to top"
-	shareStr = "Share"
-	pageNotFoundTitle = "404 - Page not found"
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = false
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 150
+  [[related.indices]]
+  name  = "author"
+  toLower = true
+  weight = 30
+  [[related.indices]]
+  name  = "tags"
+  weight = 100
+  [[related.indices]]
+  name  = "date"
+  weight = 10
+  pattern = "2017"

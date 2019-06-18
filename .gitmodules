@@ -1,0 +1,3 @@
+[submodule "themes/twentynineteen-hugo"]
+	path = themes/twentynineteen-hugo
+	url = https://github.com/jeremybise/twentynineteen-hugo.git

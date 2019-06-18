@@ -4,4 +4,3 @@ deploy:
 
 serve:
 	hugo server
-
