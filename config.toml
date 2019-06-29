@@ -14,7 +14,7 @@ googleAnalytics = "UA-87988940-1"
   # Social accounts. Link to these accounts are displayed in the header and
   # footer
   twitter = "gainings"
-  facebook = "Your Facebook u"
+  facebook = "gai.takano"
   github = "gainings"
   # Disqus shortname
   disqus = "gainings"
@@ -29,6 +29,7 @@ googleAnalytics = "UA-87988940-1"
   # Logo image. This is displayed ogp image.
   logo = "/path/to/logo"
   favicon = "/path/to/favicon"
+	iconFont = "font-awesome"
 
 	enableSummary = true
 
@@ -56,3 +57,8 @@ googleAnalytics = "UA-87988940-1"
   name  = "date"
   weight = 10
   pattern = "2017"
+
+[social]
+	facebook-square = "https://www.facebook.com/gai.takano"
+	twitter-square = "https://twitter.com/gainings"
+	github-square = "https://github.com/gainings"
