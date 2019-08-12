@@ -32,6 +32,9 @@ googleAnalytics = "UA-87988940-1"
 	iconFont = "font-awesome"
 
 	enableSummary = true
+	
+	enableShare = true
+	tweet = "Twitter共有"
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
