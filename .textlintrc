@@ -1,0 +1,9 @@
+{
+    "rules": {
+        "preset-ja-technical-writing": {
+            "no-exclamation-question-mark": false,
+        },
+        "preset-jtf-style": true,
+        "spellcheck-tech-word": true
+    }
+}

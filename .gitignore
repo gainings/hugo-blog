@@ -19,3 +19,5 @@ themes
 *.swp
 
 public
+
+.firebase/
