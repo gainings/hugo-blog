@@ -1,6 +1,7 @@
 ---
 title: Goのreflect.DeepEqualでガッツリハマった話
 date: 2018-12-04T19:22:17+09:00
+tags: ["Go"]
 ---
 
 ## はじめに

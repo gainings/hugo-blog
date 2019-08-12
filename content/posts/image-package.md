@@ -1,7 +1,7 @@
 ---
 title: Golangのimage Packageを掘り下げる
 date: 2018-04-30T22:23:14+09:00
-comments: true
+tags: ["Go"]
 ---
 
 ## はじめに

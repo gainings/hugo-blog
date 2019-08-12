@@ -1,6 +1,7 @@
 ---
 title: PixelaのAPIを叩くGolang製Clientを作った"
 date: 2018-10-15T23:14:08+09:00
+tags: ["Go"]
 ---
 # 10/16 修正
 

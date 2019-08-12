@@ -1,6 +1,7 @@
 ---
 title: exported function should have comment or be unexportedに対抗するためのプログラムを作った
 date: 2018-08-25T22:58:39+09:00
+tags: ["Go"]
 ---
 
 ## はじめに

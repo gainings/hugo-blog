@@ -1,6 +1,7 @@
 ---
 title: KOSEN Conference in Tokyo 2018に参加した
 date: 2018-07-16T23:34:03+09:00
+tags: ["雑記"]
 ---
 
 ## はじめに
