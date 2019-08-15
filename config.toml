@@ -35,6 +35,8 @@ googleAnalytics = "UA-87988940-1"
 	
 	enableShare = true
 	tweet = "Twitter共有"
+	enableToc = true
+
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
