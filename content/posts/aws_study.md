@@ -48,7 +48,7 @@ tags: ["AWS", "雑記"]
 その中にAWSの研修がありました。
 
 4日間かけて実際にAWSの方から研修用コンテンツである
-[AWS Technical Essentials 1](https://aws.amazon.com/jp/training/course-descriptions/essentials/)と
+[AWS Technical Essentials 2](https://aws.amazon.com/jp/training/course-descriptions/essentials2/)と
 [Architecting on AWS](https://aws.amazon.com/jp/training/course-descriptions/architect/)のトレーニングを実施していただきました。
 
 その中では以下のようなことを学びました。
