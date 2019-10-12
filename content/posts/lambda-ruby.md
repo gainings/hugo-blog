@@ -114,7 +114,7 @@ circleci@3d233757b0cc:/$ echo $HOME
 /root
 ```
 
-ユーザーは `circleci`、 `$HOME` は `/root  とMySQLなりました。`
+ユーザーは `circleci`、 `$HOME` は `/root  となりました。`
 
 次に `circleci/ruby:2.5.0` に入ってみます。
 
