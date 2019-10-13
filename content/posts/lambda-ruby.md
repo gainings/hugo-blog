@@ -1,6 +1,7 @@
 ---
 title: CircleCIでRubyのvendorをWorkflow間で共有した時の失敗談
 date: 2019-10-10T19:32:15+09:00
+tags: ["AWS", "Ruby", "Lambda", "CircleCI", "Terraform"]
 ---
 
 ## はじめに
