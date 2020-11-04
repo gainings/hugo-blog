@@ -11,14 +11,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
     - name: setup Node
       uses: actions/setup-node@v1
       with: 
         node-version: 10.x
         registry-url: 'https://registry.npmjs.org'
     - name: Update Submodules
-      run: git submodule update --remote
+      run: |
+        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+        git submodule sync --recursive
+        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
     - name: Install Dependencies
       run: npm install
     - name: Install hugo

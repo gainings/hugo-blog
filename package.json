@@ -13,7 +13,7 @@
     "firebase-tools": "^8.14.1"
   },
   "scripts": {
-		"deploy": "firebase deploy"
+    "deploy": "firebase deploy"
   },
   "repository": {
     "type": "git",
