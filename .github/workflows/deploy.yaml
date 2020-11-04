@@ -30,7 +30,9 @@ jobs:
         tar -zxvf hugo.tar.gz
         chmod +x hugo
     - name: Build pages
-      run: ./hugo
+      run: | 
+        cp static/images/avatar.png themes/hugo-theme-cactus-plus/static/images/avatar@2x.png
+        ./hugo
     - name: deploy to Firebase Hosting
       run: |
         npm run deploy -- --token=${{ secrets.FIREBASE_TOKEN }}
