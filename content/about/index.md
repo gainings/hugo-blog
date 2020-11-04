@@ -10,6 +10,8 @@ date: 2019-08-11T14:31:31+09:00
 - Twitter: [@gainings](https://twitter.com/gainings)
 - メール: gain.beats@gmail.com
 
+***
+
 ## 職務経歴
 
 |会社|在籍|
@@ -26,11 +28,11 @@ date: 2019-08-11T14:31:31+09:00
 |2019年9月 ~ 2019年11月| ゲームアプリのランキング集計のためのETL処理やバッチ処理などをクラウドサービスを用いて構築 |
 |2019年12月 ~ 2020年06月| オンプレからクラウドへのデータベース移行にかかる移行計画とAPI作成の支援 |
 |2020年6月 ~ 2020年07月| Fargate環境のコスト最適化 |
-|2020年9月 ~ 2020年10月| DockerのPull Limit対策 |
+|2020年9月 ~ 2020年10月| k8sのDocker Hub Pull Rate対策 |
 
 ## 副業
 
-[アニメファンド株式会社](https://www.corp.animefund.com/)
+### [アニメファンド株式会社](https://www.corp.animefund.com/)
 
 ### 期間
 
@@ -58,6 +60,8 @@ date: 2019-08-11T14:31:31+09:00
   - GitHubActionsとCodePipelineを利用したBlue/Greenデプロイ
 - CloudWatchを利用した監視設定
 - locustを利用した負荷試験のスクリプト作成と試験実行
+
+***
 
 ## 技術経験
 
