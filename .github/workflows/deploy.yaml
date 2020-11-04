@@ -25,7 +25,7 @@ jobs:
         tar -zxvf hugo.tar.gz
         chmod +x hugo
     - name: Build pages
-      run: hugo
+      run: ./hugo
     - name: deploy to Firebase Hosting
       run: |
         npm run deploy --token=${{ secrets.FIREBASE_TOKEN }}
