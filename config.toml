@@ -28,7 +28,7 @@ googleAnalytics = "UA-87988940-1"
   subtitle = "Short subtitle"
   # Logo image. This is displayed ogp image.
   logo = "/path/to/logo"
-  favicon = "/path/to/favicon"
+  favicon = "/static/image/favicon.ico"
 	iconFont = "font-awesome"
 
 	enableSummary = true
