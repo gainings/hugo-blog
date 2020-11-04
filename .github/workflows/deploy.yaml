@@ -17,6 +17,8 @@ jobs:
       with: 
         node-version: 10.x
         registry-url: 'https://registry.npmjs.org'
+    - name: Update Submodules
+      run: git submodule update --remote
     - name: Install Dependencies
       run: npm install
     - name: Install hugo
