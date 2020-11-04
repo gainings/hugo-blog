@@ -1,0 +1,31 @@
+name: firebase deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@master
+    - name: setup Node
+      uses: actions/setup-node@v1
+      with: 
+        node-version: 10.x
+        registry-url: 'https://registry.npmjs.org'
+    - name: Install Dependencies
+      run: npm install
+    - name: Install hugo
+      run: |
+        curl -L0k https://github.com/gohugoio/hugo/releases/download/v0.78.0/hugo_0.78.0_Linux-64bit.tar.gz -o hugo.tar.gz
+        tar -zxvf hugo.tar.gz
+        chmod +x hugo
+    - name: Build pages
+      run: hugo
+    - name: deploy to Firebase Hosting
+      run: |
+        npm run deploy --token=${{ secrets.FIREBASE_TOKEN }}
