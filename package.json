@@ -9,9 +9,11 @@
   "dependencies": {
     "gh-pages": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "firebase-tools": "^8.14.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"deploy": "firebase deploy"
   },
   "repository": {
     "type": "git",
