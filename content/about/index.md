@@ -87,6 +87,7 @@ date: 2019-08-11T14:31:31+09:00
 
 |取得日|資格名|
 |----|----|
-|2019年06月29日|AWS認定ソリューションアーキテクト - アソシエイト|
-|2019年10月19日|AWS認定デベロッパー - アソシエイト|
+|2019年06月29日|[AWS認定ソリューションアーキテクト - アソシエイト](https://www.youracclaim.com/badges/50048e72-32e2-4fc6-9823-9d0993e99fc6/public_url)|
+|2019年10月19日|[AWS認定デベロッパー - アソシエイト](https://www.youracclaim.com/badges/0c2ea115-7c2e-4828-9ef6-e26146669452/public_url)|
+|2021年3月7日|[Certified Kubernetes Application Developer](https://www.youracclaim.com/badges/09e568a2-b1c8-46b2-907f-120891ec9fd6/public_url)|
 
