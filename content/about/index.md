@@ -34,11 +34,11 @@ date: 2019-08-11T14:31:31+09:00
 
 ### [アニメファンド株式会社](https://www.corp.animefund.com/)
 
-### 期間
+#### 期間
 
 2020年08月01日 ~ 2020年11月30日
 
-### 業務内容
+#### 業務内容
 クラウドファンディングサービスのインフラ面全般を担当。
 
 以下の内容を3ヶ月程度で構築。
@@ -60,6 +60,44 @@ date: 2019-08-11T14:31:31+09:00
   - GitHubActionsとCodePipelineを利用したBlue/Greenデプロイ
 - CloudWatchを利用した監視設定
 - locustを利用した負荷試験のスクリプト作成と試験実行
+
+### [207株式会社](207株式会社)
+
+#### 期間
+
+2021年01月01日 ~ 現在
+
+#### 業務内容
+
+- AWS環境上に以下のサービスを用いたRailsアプリケーションおよびNode.jsアプリケーションを構築
+  - CloudFront
+  - ALB
+  - ECS Fargate
+  - Redis
+  - RDS Aurora
+  - S3
+- RailsアプリケーションとNodeアプリケーションのDocker化
+- 従来のElasticBeanstalkの環境からダウンタイムなく上記の新環境への移行を企画から準備、実行まで実施
+- CI/CD pipelineの設定
+  - CircleCIでのBuild
+  - CodePipelineを利用したBlue/Greenデプロイ
+- Terraformを使用したIaCの実現
+- AWSアカウントの整理
+  - AWS Organization
+  - Google Workspaceを用いたAWS SSOでのログイン
+  - Google Workspaceの組織内だけがアクセス可能なOAuthの設定
+- ドメインの設定
+  - 散財していたドメインをAWSのRoute53に統合
+  - サブドメイン設定
+  - 証明書設定
+- NewRelicを利用した監視設定
+- データ分析基盤の整備
+  - Auroraにあるデータを定期的にマスクし、S3に吐き出しAthena経由でRedashからアクセスするためのETL環境整備
+  - RedashをECS on EC2で構築
+  - RedashのログインをOAuthで可能に
+- SESでのメール送信の設定
+- コンテナの脆弱性診断の通知
+- メンテ等の保守運用作業
 
 ## 技術経験
 
